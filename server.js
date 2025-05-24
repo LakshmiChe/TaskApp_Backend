@@ -1,5 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv');
+const serverless = require('serverless-http');
 const cors = require('cors');
 const cron = require("node-cron");
 const multer = require('multer');
